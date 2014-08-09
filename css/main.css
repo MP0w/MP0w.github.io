@@ -361,13 +361,24 @@ a:visited { color: #205caa; }
 }
 
 .headerImageWrapper{
+    position: relative;
 	width: 100%;
 	height: 33%;
 	overflow:hidden;
 }
 
-.headerImage{
+.coverImage{
 	width: 100%;
+}
+
+.coverImageCentered{
+	width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;	
+    margin: auto;
 }
 
 .twittertimeline{
@@ -380,9 +391,6 @@ a:visited { color: #205caa; }
   font-size: 15px;
   color: #818181;
 }
-
-
-
 
 .spacing{
 	clear: left;

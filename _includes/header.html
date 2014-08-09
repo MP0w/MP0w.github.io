@@ -1,5 +1,5 @@
 
-<div class="headerImageWrapper" id="rootImg"><img src="{% if page.cover %}{{ page.cover }}{% else %} {{site.cover}}{% endif %}" class="headerImage" /></div>
+<div class="headerImageWrapper" id="rootImg"><img src="{% if page.cover %}{{ page.cover }}{% else %} {{site.cover}}{% endif %}" class="{% if page.cover-centered %}coverImageCentered{% else %}coverImage{% endif %}" /></div>
 
 <header class="site-header">
 
