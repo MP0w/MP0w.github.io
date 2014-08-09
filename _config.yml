@@ -9,7 +9,7 @@ github_username:  MP0w
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: "/:title"
 
 
 production: true
