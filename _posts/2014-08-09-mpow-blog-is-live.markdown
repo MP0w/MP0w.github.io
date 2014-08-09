@@ -1,10 +1,10 @@
 ---
 layout: post
-author: mpow
-title:  "Welcome to Jekyll!"
+title:  "My Blog is live!"
 date:   2014-08-09 14:42:00
 permalink: mpow-blog-is-live.html
 categories: mpow blog
+summary: "the blog is live"
 tags: mpow blog
 ---
 

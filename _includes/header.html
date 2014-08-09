@@ -1,4 +1,5 @@
-<div class="headerImageWrapper" id="rootImg"><img src="/assets/root.png" class="headerImage" /></div>
+
+<div class="headerImageWrapper" id="rootImg"><img src="{% if page.cover %}{{ page.cover }}{% else %} {{site.cover}}{% endif %}" class="headerImage" /></div>
 
 <header class="site-header">
 
