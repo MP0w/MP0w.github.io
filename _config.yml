@@ -19,4 +19,5 @@ author:
     display_name: Alex Manzella
     username: MPow
     
-cover: "/assets/root.png"
+assets-path: "../assets/"
+cover: "root.jpg"

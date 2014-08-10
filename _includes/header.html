@@ -1,5 +1,20 @@
-
-<div class="headerImageWrapper" id="rootImg"><img src="{% if page.cover %}{{ page.cover }}{% else %} {{site.cover}}{% endif %}" class="{% if page.cover-centered %}coverImageCentered{% else %}coverImage{% endif %}" /></div>
+<style>
+.coverImage{
+  background: url({{ site.assets-path }}{% if page.cover %}{{ page.cover }}{% else %}{{site.cover}}{% endif %});
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.coverImageCentered{
+  background: url({{ site.assets-path }}{% if page.cover %}{{ page.cover }}{% else %}{{site.cover}}{% endif %});
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+</style>
+<div class="headerImageWrapper {% if page.cover-centered %}coverImageCentered{% else %}coverImage{% endif %}"></div>
 
 <header class="site-header">
 

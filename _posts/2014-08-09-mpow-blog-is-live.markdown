@@ -5,6 +5,8 @@ date:   2014-08-09 14:42:00
 categories: mpow blog
 summary: "the blog is live"
 tags: mpow blog
+cover: MiniPlayerCover.jpg
+cover-centered: 1
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
