@@ -157,13 +157,6 @@ a:visited { color: #205caa; }
   line-height: 1;
 }
 
-.posts .post-date {
-  display: block;
-  font-size: 15px;
-  color: #818181;
-}
-
-
 /* Post styles */
 /* ----------------------------------------------------------*/
 
@@ -393,8 +386,10 @@ a:visited { color: #205caa; }
 
 .home .post-date {
   display: block;
-  font-size: 15px;
+  font-size: 17px;
   color: #818181;
+  font-style: italic;
+  font-weight: 100
 }
 
 .spacing{
@@ -406,6 +401,14 @@ a:visited { color: #205caa; }
 .home h1{
 	font-size: 160%;
 	margin-bottom: 0px;
+}
+
+.home h1 a{
+	color: #7f49bd;
+}
+
+.post-link{
+	color: #7f49bd;
 }
 
 #latest article {
