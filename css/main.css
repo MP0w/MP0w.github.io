@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -174,12 +174,28 @@ a:visited { color: #205caa; }
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
+  text-align: center;
 }
 
 .post-header .meta {
-  font-size: 15px;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 100;
   color: #818181;
   margin-top: 5px;
+  font-style: italic;
+}
+
+.meta .author{
+	font-style: normal;
+	font-weight: 400;
+	color: #7f49bd;
+}
+
+.meta .post-date{
+	font-style: normal;
+	font-weight: 300;
 }
 
 .post-content { margin: 0 0 30px; }
@@ -471,4 +487,25 @@ a:visited { color: #205caa; }
 .goToAll a{
 	font-size: 110%;
 	color: #aaaaaa;
+}
+
+hr{
+	width: 80%;
+	margin: 10px 10%;
+	border: 0;
+    height: 1px;
+    background: #bbb;
+    background-image: -webkit-linear-gradient(left, #eee, #bbb, #eee); 
+    background-image:    -moz-linear-gradient(left, #eee, #bbb, #eee); 
+    background-image:     -ms-linear-gradient(left, #eee, #bbb, #eee); 
+    background-image:      -o-linear-gradient(left, #eee, #bbb, #eee); 
+}
+
+.commentShare{
+	width: 50%;
+	text-align: right;
+	float: left;
+	padding-left: 15px;
+	margin-right: 25px;
+	margin-bottom: 10px;
 }
