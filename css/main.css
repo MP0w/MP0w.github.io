@@ -49,18 +49,18 @@ button{
 	background-color: #fff;
 	font-size: 18px;
 	padding: 4px;
-	margin: 0 auto;
+	margin: 0 auto !important;
 	margin-top: 20px;
 }
 
 button:hover{
-	background-color: #aaa;
+	background-color: #ccc;
 	color: #fff;
 }
 
 hr{
 	width: 80%;
-	margin: 10px 10%;
+	margin: 10px 10% !important;
 	border: 0;
     height: 1px;
     background: #bbb;
@@ -188,6 +188,11 @@ footer .wrap {
 /* ----------------------------------------------------------*/
 
 .page-content {
+  min-height: 33%; /*fallback*/
+  min-height: -webkit-calc(66% - 285px);
+  min-height: -moz-calc(66% - 285px);
+  min-height: -o-calc(66% - 285px);
+  min-height: calc(66% - 285px);
   padding: 30px 0;
   background-color: #fff;
 }
@@ -502,6 +507,15 @@ footer .wrap {
 
 .authorProfile{
 	font-weight : 200;
+	max-width: 360px;
+	line-height: 20px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.products{
+	font-size: 30px;
+	font-weight : 100;
 	max-width: 360px;
 	line-height: 20px;
 	margin: auto;

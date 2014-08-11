@@ -1,0 +1,26 @@
+---
+layout: sitepage
+title: Apps
+cover: MiniPlayerCover.jpg
+cover-centered: 1
+tag: apps cannibalkiwi appstore mac osx
+permalink: Apps/
+---
+<style>
+.product{
+	margin: 40px 0;
+}
+</style>
+{% for app in site.data.apps %}
+<div class="product">
+<table class="products">
+<tr>
+	<td style="width:60px;"><img class="profilepic" src="{{ site.assets-path }}{{app.icon}}" /></td>
+	<td>{{app.name}}</td> 
+</tr>
+</table>
+<hr />
+{{app.description | markdownify}}<br />
+<button  onclick="location.href='{{app.url}}'">More</button>
+</div>
+{% endfor %}

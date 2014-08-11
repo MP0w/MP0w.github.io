@@ -1,0 +1,19 @@
+- name: MiniPlayer
+  url: /MiniPlayer-Mac
+  description: "After the success of [MiniPlayer for iOS](/Tweaks) I decided to develop the OSX version. MiniPlayer let you control and search your Music with **all the most popular Apps and Music Services**. It supports **iTunes**, **Spotify**, **Rdio** and is extensible to any other Application you like with **Plug-Ins**.  You will love to listen your Music thanks to the simple and beatiful UI made by [@Surenix](http://twitter.com/Surenix)."
+  icon: "miniplayerIcon.png"
+
+- name: "My goodBarber"
+  url: "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0CEoQFjAD&url=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fmy-goodbarber%2Fid534475256%3Fmt%3D8&ei=o_joU4Vzyp_RBf-RgZgG&usg=AFQjCNE3AqeMghiVQvVt3b441jvS3TiH4Q&sig2=H9Z5wVW0zkZYywIwBLY8dA&bvm=bv.72676100,d.d2k"
+  description: "An App to manage your [GoodBarber](http://goodbarber.com) Applications directly on your device. Send push, see statistics, **test your Application** directly inside this App and ask question to the support."
+  icon: "mygb.png"
+
+- name: "My WMaker"
+  url: "https://itunes.apple.com/us/app/wmaker/id852224595?mt=8"
+  description: "An App to manage your [WMaker](http://wmaker.net) Websites. As any respectable app for CMS this app let you create or edit your Articles, manage the comments, contact the support and see the statistic of your websites."
+  icon: "mywm.png"
+
+- name: "CannibalKiwi"
+  url: "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCUQFjAA&url=https%3A%2F%2Fitunes.apple.com%2Fit%2Fapp%2Fcannibal-kiwi%2Fid573394625%3Fmt%3D8&ei=Pv3oU7OPIMGr0QWY94GoCw&usg=AFQjCNEPbpe3TQ9O-ycK7tJ99zdPFaKA8A&sig2=zBGdGHE8zishi1N56Kh0Ng&bvm=bv.72676100,d.d2k"
+  description: "A game done just for fun and to learn [Cocos2d](http://cocos2d.org), yes SpriteKit didn't exist yet. Take it as an experiment to play with GameKit APIs and Cocos2d."
+  icon: "cocos.png"
