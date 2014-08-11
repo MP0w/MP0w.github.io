@@ -3,8 +3,7 @@ layout: default
 ---
 
 <div class="home">
-
-
+{% include author.html %}
 <section id="latest">
   <article>
     <header>
@@ -13,10 +12,8 @@ layout: default
         <span class="post-date">{{ site.posts.first.date | date: "%B %-d, %Y" }}</span>
       </hgroup>
     </header>
-
-    {{ site.posts.first.excerpt | markdownify }}
-
-    <a class="readmore" href="{{ site.posts.first.url }}">Continue Reading</a>
+	{{ site.posts.first.excerpt | markdownify }}
+	<button  onclick="location.href='{{ site.posts.first.url }}'">Continue Reading</button>
   </article>
 </section>
 
@@ -29,21 +26,20 @@ layout: default
         <h1 class="title"><a href="{{ post.url }}">{{ post.title | camel_break }}</a></h1>
         <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
       </header>
-
       {{ post.excerpt | markdownify }}
     </article>
   {% endfor %}
+
+<div id="titleOnly">
+    {% for post in site.posts offset:7 %}
+    <article>
+      <header>
+        <h1 class="title"><a href="{{ post.url }}">{{ post.title | camel_break }}</a></h1>
+        <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+      </header>
+    </article>
+  {% endfor %}
+</div>
 </section>
 
-<div class="spacing"></div>
-
-  <ul class="posts">
-    {% for post in site.posts offset:6 %}
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      </li>
-    {% endfor %}
-  </ul>
-  
 </div>

@@ -1,11 +1,14 @@
 <footer class="site-footer">
 
-  <div class="wrap">
-
-    <h2 class="footer-heading">{{ site.title }}      <p class="text">{{ site.description }}</p>
-</h2>
-
-    <div class="footer-col-1 column">
+<div class="wrap">
+<table class="authorProfile">
+  <tr>
+    <td style="width:60px;"><img class="profilepic" src="{{ site.assets-path }}{{ site.profilepic }}" /></td>
+    <td>{{ site.footer-description }}</td> 
+  </tr>
+</table>
+ 
+   <div class="footer-col-1 column">
       <ul>
       	<li><a href="https://twitter.com/manzopower" class="twitter-follow-button" data-show-count="false">Follow @manzopower</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
@@ -15,8 +18,8 @@
 
 	<div class="footer-col-2 column">
       <ul>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
 		<li class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
+        <li><a href="mailto:{{ site.email }}" id="footer-email"">{{site.email}}</a></li>
       </ul>
     </div>
 
