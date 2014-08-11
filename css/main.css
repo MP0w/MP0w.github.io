@@ -17,6 +17,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
+  color: #444;
   background-color: #fdfdfd;
 }
 
@@ -25,6 +26,49 @@ h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
+
+strong{
+	color: #000;
+	font-weight:400;
+}
+
+code{
+	color: #000;
+}
+
+button{
+    display: block;
+	width: 200px;
+	min-height: 40px;
+	text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	color: #aaa;
+	background-color: #fff;
+	font-size: 18px;
+	padding: 4px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+button:hover{
+	background-color: #aaa;
+	color: #fff;
+}
+
+hr{
+	width: 80%;
+	margin: 10px 10%;
+	border: 0;
+    height: 1px;
+    background: #bbb;
+    background-image: -webkit-linear-gradient(left, #eee, #bbb, #eee); 
+    background-image:    -moz-linear-gradient(left, #eee, #bbb, #eee); 
+    background-image:     -ms-linear-gradient(left, #eee, #bbb, #eee); 
+    background-image:      -o-linear-gradient(left, #eee, #bbb, #eee); 
+}
 
 /* Utility */
 .clear{ clear: both; }
@@ -385,9 +429,6 @@ footer .wrap {
 	margin-bottom=50px;
 }
 
-#latest article {
-    font-size: 125%
-}
 
 #recent article {
     float: left;
@@ -411,6 +452,9 @@ footer .wrap {
     #recent article:nth-of-type(3n) {
         margin-right: 0
     }
+    #latest article {
+    font-size: 115%
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -445,41 +489,6 @@ footer .wrap {
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     text-overflow: -o-ellipsis-lastline
-}
-
-
-button{
-    display: block;
-	width: 200px;
-	min-height: 40px;
-	text-align: center;
-    border: 1px solid #aaa;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-	color: #aaa;
-	background-color: #fff;
-	font-size: 18px;
-	padding: 4px;
-	margin: 0 auto;
-	margin-top: 20px;
-}
-
-button:hover{
-	background-color: #aaa;
-	color: #fff;
-}
-
-hr{
-	width: 80%;
-	margin: 10px 10%;
-	border: 0;
-    height: 1px;
-    background: #bbb;
-    background-image: -webkit-linear-gradient(left, #eee, #bbb, #eee); 
-    background-image:    -moz-linear-gradient(left, #eee, #bbb, #eee); 
-    background-image:     -ms-linear-gradient(left, #eee, #bbb, #eee); 
-    background-image:      -o-linear-gradient(left, #eee, #bbb, #eee); 
 }
 
 .commentShare{
