@@ -20,5 +20,5 @@
   description: "Add the Pull To Refresh in every WebView and Customize it!"
 
 - name: "KeDoRi"
-  url: "cydia://package/org.thebigboss.kedori"
+  url: "cydia://package/org.thebigboss.kedoripro"
   description: "A clever keyboard management. It Switch keyboard language based on the text you write, if you write in Italian auto-correction should be in italian, right? Ah... it's [Open Source](https://github.com/MP0w/KeDoRi--iOS-Clever-Keyboard-)!"
