@@ -9,6 +9,11 @@
   video: '<iframe width="251" height="141" src="http://www.youtube.com/embed/2MV_QDtDoJg" frameborder="0" allowfullscreen></iframe>'
   description: "Add an animated wallpaper in your Lockscreen, Homescreen and Notification Center (compatible with BootLogo Animations)"
 
+- name: "KeDoRi"
+  url: "cydia://package/org.thebigboss.kedoripro"
+  icon: "kedori.png"
+  description: "A clever keyboard management. It Switch keyboard language based on the text you write, if you write in Italian auto-correction should be in italian, right? Ah... it's [Open Source](https://github.com/MP0w/KeDoRi--iOS-Clever-Keyboard-)!"
+
 - name: "PowerMusic"
   url: "cydia://package/org.thebigboss.powermusic"
   video: '<iframe width="251" height="141" src="http://www.youtube.com/embed/IjfOXHgugZg" frameborder="0" allowfullscreen></iframe>'
@@ -18,7 +23,3 @@
 - name: "PullAll"
   url: "cydia://package/org.thebigboss.pullall"
   description: "Add the Pull To Refresh in every WebView and Customize it!"
-
-- name: "KeDoRi"
-  url: "cydia://package/org.thebigboss.kedoripro"
-  description: "A clever keyboard management. It Switch keyboard language based on the text you write, if you write in Italian auto-correction should be in italian, right? Ah... it's [Open Source](https://github.com/MP0w/KeDoRi--iOS-Clever-Keyboard-)!"

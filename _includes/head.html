@@ -7,6 +7,10 @@
     <meta name="description" content="{% if page.summary %}{{page.summary}}{% elsif page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="keywords" content="{{site.defaultTags}} {% if page.tags %}{% for tag in page.tags %}{{tag}},{% endfor %}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{site.assets-path}}touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="{{site.assets-path}}touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="{{site.assets-path}}touch-icon-ipad-retina.png">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 <script>
