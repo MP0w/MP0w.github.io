@@ -1,6 +1,6 @@
 - name: MiniPlayer
   url: /MiniPlayer-Mac
-  description: "After the success of [MiniPlayer for iOS](/Tweaks) I decided to develop the OSX version. MiniPlayer let you control and search your Music with **all the most popular Apps and Music Services**. It supports **iTunes**, **Spotify**, **Rdio** and is extensible to any other Application you like with **Plug-Ins**.  You will love to listen your Music thanks to the simple and beatiful UI made by [@Surenix](http://twitter.com/Surenix)."
+  description: "After the success of [MiniPlayer for iOS](/Tweaks) I decided to develop the OSX version. MiniPlayer lets you control and search your Music with **all the most popular Apps and Music Services**. It supports **iTunes**, **Spotify**, **Rdio** and is extensible to any other Application you like with **Plug-Ins**.  You will love to listen your Music thanks to its simple and beautiful UI made by [@Surenix](http://twitter.com/Surenix)."
   icon: "miniplayerIcon.png"
 
 - name: "My GoodBarber"
