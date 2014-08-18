@@ -14,7 +14,7 @@ body {
   background-color: #fdfdfd;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; text-align: center;}
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -29,23 +29,26 @@ code{
 	color: #000;
 }
 
-button{
-    display: block;
-	width: 200px;
-	min-height: 40px;
+button, .button, .button:visited{
+	font-weight: 200;
+	text-decoration: none;
+	display: table;
+	min-width: 120px;
+	max-width: 200px;
 	text-align: center;
     border: 1px solid #aaa;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-	color: #aaa;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+	color: #999;
 	background-color: #fff;
 	font-size: 18px;
-	padding: 4px;
+	padding: 3px 10px;
 	margin: 0 auto !important;
 }
 
-button:hover{
+button:hover,.button:hover{
+	text-decoration: none;
 	background-color: #ccc;
 	color: #fff;
 }
@@ -515,4 +518,46 @@ footer .wrap {
 #titleOnly article{
 	min-height: 10px;
 	margin-top: 10px;
+}
+
+.footnotes{
+	margin-top: 80px;
+}
+
+#markdown-toc{
+	margin: 0 auto;
+	margin-bottom: 20px !important;
+	padding: 10px;
+	width: 270px;
+	border: 1px solid #ddd;
+	background-color: #eef;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+     font-size: 17px;
+}
+
+#markdown-toc li{
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+#markdown-toc li li{
+	list-style: none;
+    font-size: 14px;
+    margin-left: -35px;
+}
+
+#markdown-toc li li:before{
+	content: "- ";
+}
+
+#markdown-toc a{
+	color: #444;
+}
+
+.postImage{
+	width:290px;
+	display:block;
+	margin:0 auto;
 }
