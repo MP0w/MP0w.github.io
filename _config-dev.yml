@@ -1,0 +1,28 @@
+# Site settings
+title: MPow
+description: "iOS and OSX Developer that love to work on challenging projects and enjoy good UI/UX. Made in Italy"
+long-description: "iOS and OSX Developer that love to work on challenging projects and enjoy good UI/UX. 22 years old, <i>Made in Italy</i>."
+footer-description: "iOS and OSX Developer<br /><i>Made in Italy</i>"
+defaultTags: "mpow, manzopower, blog, ios, developer, osx, cocoa, UIKit, miniplayer, animateall, powermusic"
+
+email: manzopower@icloud.com
+baseurl: ""
+url: "http://blog.mpow.it"
+twitter_username: ManzoPower
+github_username:  MP0w
+
+# Build settings
+markdown: kramdown
+permalink: "/:title"
+
+
+production: false
+timezone: "Europe/Rome"
+
+author:
+    display_name: Alex Manzella
+    username: MPow
+    
+assets-path: "/assets/"
+cover: "root.jpg"
+profilepic: "profilepic.jpg"
