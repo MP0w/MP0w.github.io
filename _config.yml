@@ -14,7 +14,8 @@ github_username:  MP0w
 # Build settings
 markdown: kramdown
 permalink: "/:title"
-
+gems:
+  - jekyll-sitemap
 
 production: true
 timezone: "Europe/Rome"
