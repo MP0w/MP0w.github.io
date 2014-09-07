@@ -3,7 +3,7 @@ layout: page
 title: "Alex Manzella"
 tags: Curriculum, Vitae
 summary: "Alex Manzella Curriculum Vitae"
-permalink: /CVpdf/
+permalink: /CV/
 <!--cover: mpicon.jpg-->
 <!--cover-centered: 1-->
 ---
