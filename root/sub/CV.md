@@ -174,7 +174,7 @@ When I'm not writing code I enjoy to play football, do snowboard or surf, listen
 {: .cv}
 
 
-*Version updated on **{{ page.lastdate }}**, get an up to date copy at [{{ site.url }}{{ page.permalink }}]({{ site.url }}{{ page.permalink }})*
+*Version updated on **{{ page.lastdate }}**, get an up to date copy at* [{{ site.url }}{{ page.permalink }}]({{ site.url }}{{ page.permalink }})
 {: .updated .onlyOnPDF}
 
 
