@@ -5,7 +5,7 @@ tags: Curriculum, Vitae
 summary: "Alex Manzella Curriculum Vitae"
 permalink: /CV/
 cover: ""
-lastdate: "24/09/2014"
+lastdate: "28/09/2014"
 ---
 
 <style>
@@ -79,6 +79,7 @@ lastdate: "24/09/2014"
 |Nationality|Italian|
 |Mail|[manzopower@icloud.com](mailto:manzopower@icloud.com)|
 |Twitter|[@manzopower](http://twitter.com/manzopower)|
+|Skype|manzopower|
 {: .cv}
 
 ####Position####
@@ -97,7 +98,8 @@ I love to do Applications, Tweaks and CLI programs for iOS and OSX.
 I'm active in the iOS jailbreak community, I like to build software that patch iOS (Tweaks) and/or that help me to debug or research. I believe that jailbreak is somewhat necessary to iOS developers because of the amount of tools that help the workflow, like Cycript do for the Debug.
 Hundreds of thousands of users enjoy my [Applications](http://mpow.it/Apps) and [Tweaks](http://mpow.it/Tweaks) every day, as a music lover one of the project that I enjoyed more to work on is [MiniPlayer for Mac](http://mpow.it/MiniPlayer-Mac) and [for iOS](http://mpow.it/Tweaks) .
 I'm in love with the ObjC runtime. I like to work on challenging projects, do great UI and UX to create the best products possible.  
-First of all I'm an iOS Developer, with a really good knowledge of Objective C and Cocoa Touch. I'm able to work fast and writing good, manteinable, scalable and safe code using  modern techniques, the most popular public (and some private) Frameworks of Cocoa Touch, Unit Testing and Continuos Integration. I'm also pretty good debugging code, research and escape from hard situations thanks to my knowledge of the runtime, lldb and other tools like [Cycript](http://cycript.org).  
+First of all I'm an iOS Developer, with a really good knowledge of Objective C and Cocoa Touch. I'm able to work fast and writing good, manteinable, and scalable code using the most popular public (and some private) Frameworks of Cocoa Touch.  
+I take andvantage of all the modern techniques such as Unit Testing, version control (GIT or SVN) and Continuos Integration to write safe code and collaborate with other developers using all the most popular Applications and XCode. I'm also pretty good debugging code, research and escape from hard situations thanks to my knowledge of the runtime, lldb and other tools like [Cycript](http://cycript.org).  
 Some of my open-source projects can be found on GitHub: [https://github.com/MP0w](https://github.com/MP0w)
 My most known project are in my website [http://MPow.it](http://MPow.it) or on Github.
 I actually work for GoodBarber as iOS Developer on the engine of an App Builder and other projects; and I'm even working on a revolutionary Twitter client for iOS in my free time!  
