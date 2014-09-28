@@ -10,6 +10,10 @@ lastdate: "24/09/2014"
 
 <style>
 
+@page {
+    margin: 1cm 2cm;
+}
+
 .cv,.cv3{
     width: 100%;
 }
@@ -32,6 +36,7 @@ lastdate: "24/09/2014"
 }
 
 @media print {
+
     body {
         font-family: Helvetica, Arial, sans-serif;
     }
@@ -130,7 +135,10 @@ When I'm not writing code I enjoy to play football, do snowboard or surf, listen
 - Website to collect and track the stats of my Applications and beta repository for my Tweaks (SQL / PHP / HTML 5 / CSS 3) [http://mpow.it/repo](http://mpow.it/repo)
 - Webapp to manage fantasy soccer with my friends [http://mpow.it/fanta](http://mpow.it/fanta) (SQL / PHP / HTM 5 / CSS 3 / BootStrap / Library for JS Graphs)
 - SpottedWorld (WebApp/Social Network) was a Spotted based on Geo-localisation that even showed the most famous Spotted Pages on Facebook near you [Dead because of money - http://spottedworld.net] (SQL / PHP / HTML5 / CSS3)
-- Other websites for clients and for the restaurants of my family.
+- Other websites for clients and for the restaurants of my family.  
+
+
+<div style="page-break-before: always" ></div>
 
 ####Experience####
 ----------
