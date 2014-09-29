@@ -443,6 +443,11 @@ footer .wrap {
     #latest article {
     font-size: 115%
 	}
+	
+	.tweet{
+		width: 500px;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -461,6 +466,11 @@ footer .wrap {
     #recent article:nth-of-type(2n) {
         margin-right: 0
     }
+    
+    .tweet{
+    	width: 400px;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -469,6 +479,11 @@ footer .wrap {
         min-height: 7em;
         margin-bottom: 1em
     }
+    
+     .tweet{
+    	width: 100%;
+		margin: 0 auto;
+	}
 }
 
 #recent article p {

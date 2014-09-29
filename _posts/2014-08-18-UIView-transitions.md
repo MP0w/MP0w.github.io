@@ -20,10 +20,14 @@ This is the first of three blog post talking about Transitions and Animations; I
     * [UIScrollView](#uiscrollview)
     * [Example](#example)
     * [Modifiers](#modifiers)
-2. UIViewController Transitions [^1]
-    * UIPercentDrivenInteractiveTransition
-    * UIViewControllerAnimatedTransitioning  
-3. UICollectionView Transitions [^2]
+2. [UIViewController Transitions]({% post_url 2014-09-29-UIViewControllers-transitions %})
+    * [UX]({% post_url 2014-09-29-UIViewControllers-transitions %}/#ux)
+    * [UIViewControllerTransitioningDelegate]({% post_url 2014-09-29-UIViewControllers-transitions %}/#uiviewcontrollertransitioningdelegate)
+    * [UIViewControllerAnimatedTransitioning]({% post_url 2014-09-29-UIViewControllers-transitions %}/#uiviewcontrolleranimatedtransitioning)
+    * [UIPercentDrivenInteractiveTransition]({% post_url 2014-09-29-UIViewControllers-transitions %}/#uipercentdriveninteractivetransition)
+    * [Example]({% post_url 2014-09-29-UIViewControllers-transitions %}/#example)
+    * [Landscape]({% post_url 2014-09-29-UIViewControllers-transitions %}/#landscape)
+3. UICollectionView Transitions [^1]
     * Cell animations
     * UICollectionViewTransitionLayout
 {: #markdown-toc}
@@ -46,7 +50,7 @@ To build interactive Animations we need to **define the behaviors** of an Object
 
 ###Percentage###
 ------
-What we need to **drive the animation** is a `float` between 0.0 and 1.0[^3], as it represent 0% to 100% we can call it percentage.
+What we need to **drive the animation** is a `float` between 0.0 and 1.0[^2], as it represent 0% to 100% we can call it percentage.
 Since we are talking about **Interactive Animations** we will need to get the percentage of completion from an **user interaction**.
 I will talk about the most used (by myself): [UIGestureRecognizer](#uigesturerecognizer), [UIScrollView's scroll](#uiscrollview).
 *There would be a third one but since is based on UICollectionViewLayout will be in the last episode.*
@@ -140,8 +144,7 @@ label.alpha=pow(alphaValue,3);//alphaValue*alphaValue*alphaValue;
 That was just an example, manipulate your values to build your animation properly, you can even use a [sine wave](https://www.google.fr/search?client=safari&rls=en&q=sinusoide&ie=UTF-8&oe=UTF-8&gfe_rd=cr&ei=l2nyU9D-EMjI8gfqn4G4CA#q=sin(x)&rls=en) if you like!
 Last thing: be careful to the bounds of your animations, to not waste resources; in my project even after the image is not visible I continue to calculate all I need while I should control if it's needed or not.
 
-[^1]: UIViewController Transitions has not been written yet
-[^2]: UICollectionView Transitions has not been written yet
-[^3]: It can be even >1 or <0  as a percentage can be >100%
+[^1]: UICollectionView Transitions has not been written yet
+[^2]: It can be even >1 or <0  as a percentage can be >100%
 [^parallax]: I'm not sure that [Parallax](http://en.wikipedia.org/wiki/Parallax) is the proper name for that effect, but everybody use this name, probably because of the cool side-effect cause by UIViewContentModeScaleAspectFill.
 [^subclass]: Since UITableView and UICollectionView are subclass of UIScrollView the example fully works with them, just sometimes is needed to play with the contentInset property to not cover cells.
