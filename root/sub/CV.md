@@ -5,7 +5,7 @@ tags: Curriculum, Vitae
 summary: "Alex Manzella Curriculum Vitae"
 permalink: /CV/
 cover: ""
-lastdate: "28/09/2014"
+lastdate: "02/10/2014"
 ---
 
 <style>
@@ -178,7 +178,7 @@ When I'm not writing code I enjoy to play football, do snowboard or surf, listen
 |Languages|Level|
 |---------|-----|
 |Italian|Mother tongue|
-|English|Good|
+|English|Fluent|
 |||
 |Driving License|A,B|
 {: .cv}
