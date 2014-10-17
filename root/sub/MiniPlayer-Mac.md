@@ -15,6 +15,7 @@ summary: "MiniPlayer lets you control and search your Music from all your favori
 |![MiniPlayer Icon]({{ site.assets-path }}{{app.icon}}){: .profilepic}|[Download](http://mpow.it/MiniPlayer.zip "Download MiniPlayer"){: .button}|
 {: .products}
 -------
+{% include donate.html %}
 {{app.description}}
 
 Three Themes are available : Dynamic, Black and White.  
