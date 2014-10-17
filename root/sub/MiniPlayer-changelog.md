@@ -19,12 +19,12 @@ font-weight:100 !important;
 ---------------
 {% include donate.html %}
 {{site.data.changelogs[0].mpmac[0].changes | markdownify}}  
-*{{site.data.changelogs[0].mpmac[0].date}}*  
+*released on {{site.data.changelogs[0].mpmac[0].date | date: "%B %-d, %Y" }}*  
 
 
 {% for release in site.data.changelogs[0].mpmac offset:1 %}
 ##{{release.version}}##
 ---------------
 {{release.changes | markdownify}}  
-*{{release.date}}*  
+*released on {{ release.date | date: "%B %-d, %Y" }}*
 {% endfor %}

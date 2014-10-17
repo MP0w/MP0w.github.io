@@ -2,12 +2,12 @@
     - version: 1.2
       changes: "New **Dynamic** Themes, **Dynamic** Black and **Dynamic** White will color the **MiniPlayer** based on the Artwork Image of the Now Playing Music, White and Black difference is just the default theme color if there isn't an Artwork, you can change themes using **⌘T** and you can see the current theme in the **Themes Menu** (Status Bar)  
     [Dezeer plugin beta can be downloaded here](https://www.dropbox.com/s/8hmj6jie7ctxloa/MPSafariDezeerPlugin.miniplayerplugin.zip \"Dezeer Plug-In\")"
-      date: "Wed, 16 Apr 2014 18:44"
+      date: "16/04/2014 18:44"
       
     - version: 1.1
       changes: "Bug fixes"
-      date: "Mon, 14 Apr 2014 20:10"
+      date: "14/04/2014 20:10"
       
     - version: 1.0
       changes: "Initial Release"
-      date: "Sat, 12 Apr 2014 21:30"
+      date: "12/04/2014 21:30"
