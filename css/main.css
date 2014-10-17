@@ -172,10 +172,10 @@ footer .wrap {
 
 .page-content {
   min-height: 33%; /*fallback*/
-  min-height: -webkit-calc(66% - 285px);
-  min-height: -moz-calc(66% - 285px);
-  min-height: -o-calc(66% - 285px);
-  min-height: calc(66% - 285px);
+  min-height: -webkit-calc(66% - 277px);
+  min-height: -moz-calc(66% - 277px);
+  min-height: -o-calc(66% - 277px);
+  min-height: calc(66% - 277px);
   padding: 30px 0;
   background-color: #fff;
 }
