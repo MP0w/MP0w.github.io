@@ -15,13 +15,10 @@ summary: "MiniPlayer lets you control and search your Music from all your favori
 |![MiniPlayer Icon]({{ site.assets-path }}{{app.icon}}){: .profilepic}|MiniPlayer|
 {: .products}
 -------
-{% include donate.html %}
 {{app.description}}
 
 Three Themes are available : Dynamic, Black and White.  
 
-* Table of Contents Placeholder
-{:toc}
 
 ###Users###
 ---------
