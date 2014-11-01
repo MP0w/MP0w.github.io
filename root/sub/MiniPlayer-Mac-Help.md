@@ -12,17 +12,27 @@ summary: "MiniPlayer lets you control and search your Music from all your favori
 {% assign app = site.data.apps[0] %}
 
 
-|![MiniPlayer Icon]({{ site.assets-path }}{{app.icon}}){: .profilepic}|[Soon in the App Store](){: .button}|
+|![MiniPlayer Icon]({{ site.assets-path }}{{app.icon}}){: .profilepic}|Help|
 {: .products}
 -------
-{{app.description}}
 
+* Table of Contents Placeholder
+{:toc}
+
+###What is MiniPlayer and where I can donload it?###
+-----------
+Visit [the MiniPlayer for Mac page](http://blog.mpow.it/MiniPlayer-Mac) to know more
+
+###How do I change theme?###
+-----------
+Use ⌘+T or the Theme menu in the menu bar to switch between themes.
 Three Themes are available : Dynamic, Black and White.  
 
 
-###Users###
+###How do I choose another service for the Music?###
+--------
+You can use the Music services menu in the menu bar to choose the one you want, only the available services are selectable, so if you for example didn't install the Spotify Application you will not be able to use it.
+
+###Can I keep MiniPlayer on top of all?###
 ---------
-<div class="twittertimeline">
-<a class="twitter-timeline" href="https://twitter.com/hashtag/MiniPlayer" data-widget-id="341248617748758528">#MiniPlayer Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</div>
+Yes, with ⌘+W you can toggle the options "Always on Top", also available in the Window Menu.

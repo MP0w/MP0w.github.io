@@ -19,6 +19,7 @@ summary: "MiniPlayer lets you control and search your Music from all your favori
 
 Three Themes are available : Dynamic, Black and White.  
 
+Visit [the online help page](http://blog.mpow.it/MiniPlayer-Mac-Help) if you have any question. 
 
 ###Users###
 ---------
@@ -26,3 +27,4 @@ Three Themes are available : Dynamic, Black and White.
 <a class="twitter-timeline" href="https://twitter.com/hashtag/MiniPlayer" data-widget-id="341248617748758528">#MiniPlayer Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
+
