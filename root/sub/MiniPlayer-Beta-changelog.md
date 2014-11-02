@@ -10,6 +10,15 @@ version: "3.2 Beta 1"
 ---
 
 <style>
+body, html{ 
+    background-color: transparent;
+}
+
+.page-content {
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
 .headerImageWrapper, footer, header{
     display:none;
 }
