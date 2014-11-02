@@ -3,7 +3,7 @@ layout: sitepage
 title: "MiniPlayer Beta"
 cover: MiniPlayerCover.jpg
 cover-centered: 1
-permalink: MiniPlayer-Beta-changelog/
+permalink: MiniPlayer-Beta-Changelog/
 tags: changelog
 summary: "MiniPlayer Beta Changelog and known issues"
 ---
