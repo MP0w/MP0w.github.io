@@ -6,6 +6,7 @@ cover-centered: 1
 permalink: MiniPlayer-Beta-Changelog/
 tags: changelog
 summary: "MiniPlayer Beta Changelog and known issues"
+version: "3.2 Beta 1"
 ---
 
 <style>
@@ -15,9 +16,9 @@ summary: "MiniPlayer Beta Changelog and known issues"
 
 </style>
 
-[Report Issue](mailto:manzopower@icloud.com){: .button}
+[Report Issue](mailto:miniplayer.cydia@gmail.com?subject=MiniPlayer {{page.version}}){: .button}
 
-|![MiniPlayer Icon]({{ site.assets-path }}{{site.data.apps[0].icon}}){: .profilepic}|3.2 Beta 1|
+|![MiniPlayer Icon]({{ site.assets-path }}{{site.data.apps[0].icon}}){: .profilepic}|{{page.version}}|
 {: .products}
 ---------------
 
