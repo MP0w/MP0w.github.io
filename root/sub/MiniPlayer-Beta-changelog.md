@@ -17,6 +17,9 @@ body, html{
 .page-content {
     margin: 10px;
     border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #aaa;
 }
 
 .headerImageWrapper, footer, header{
