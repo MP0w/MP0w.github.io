@@ -1,32 +1,11 @@
 ---
-layout: sitepage
+layout: depiction
 title: "MiniPlayer Beta"
-cover: MiniPlayerCover.jpg
-cover-centered: 1
 permalink: MiniPlayer-Beta-Changelog/
-tags: changelog
+tags: "changelog, beta"
 summary: "MiniPlayer Beta Changelog and known issues"
 version: "3.2 Beta 1"
 ---
-
-<style>
-body, html{ 
-    background-color: transparent;
-}
-
-.page-content {
-    margin: 10px;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #aaa;
-}
-
-.headerImageWrapper, footer, header{
-    display:none;
-}
-
-</style>
 
 [Report Issue](mailto:miniplayer.cydia@gmail.com?subject=MiniPlayer {{page.version}}){: .button}
 
