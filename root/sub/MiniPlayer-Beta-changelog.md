@@ -15,7 +15,7 @@ body, html{
 }
 
 .page-content {
-    margin: 10px auto;
+    margin: 10px;
     border-radius: 10px;
 }
 
