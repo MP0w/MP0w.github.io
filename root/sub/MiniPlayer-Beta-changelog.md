@@ -4,7 +4,7 @@ title: "MiniPlayer Beta"
 permalink: MiniPlayer-Beta-Changelog/
 tags: "changelog, beta"
 summary: "MiniPlayer Beta Changelog and known issues"
-version: "3.2 Beta 1"
+version: "3.2 Beta 2"
 ---
 
 [Report Issue](mailto:miniplayer.cydia@gmail.com?subject=MiniPlayer {{page.version}}){: .button}
@@ -14,10 +14,12 @@ version: "3.2 Beta 1"
 ---------------
 
 - iOS 8 Support
+- Added @3x icons
+- Fixed some crashes
+- libobjcipc (from @tweakcc) is not yet compatible with iOS 8, I'm working on it and **a version that at least doesn't crash** is in my repo and will be installed with MiniPlayer
 
 ###Known Issues###
 -----------
 
-- Tapping the Artwork cause a crash
-- Missing @3x (6 plus) icons
-- Some settings may not work properly (? report please)
+- Settings may not work properly (settings are written after some time)
+- Play in spotify may not work due to libobjcipc problems on iOS 8
