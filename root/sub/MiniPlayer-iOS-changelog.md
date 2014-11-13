@@ -8,15 +8,23 @@ tags: changelog
 summary: "MiniPlayer lets you control and search your Music from all your favorite services. You will love to listen your Music thanks to its simple and beautiful Design."
 ---
 
-|![MiniPlayer Icon]({{ site.assets-path }}{{site.data.apps[0].icon}}){: .profilepic}|3.1|
+<style>
+h2{
+font-weight:100 !important;
+}
+</style>
+
+|![MiniPlayer Icon]({{ site.assets-path }}{{site.data.apps[0].icon}}){: .profilepic}|{{site.data.changelogs[1].mpios[0].version}}|
 {: .products}
 ---------------
 
-- Completely rewritten
-- New physics engine for swipes 
-- Search and play from Spotify without launching the application
-- Support for future third party plug-ins (for search and play)
-- Tap a queued song to play immediately 
-- Access options view via long tap in any view
-- Usable in app switcher
-- Bug fixes
+{{site.data.changelogs[1].mpios[0].changes | markdownify}}  
+*released on {{site.data.changelogs[0].mpmac[0].date | date: "%B %-d, %Y" }}*  
+
+
+{% for release in site.data.changelogs[1].mpios offset:1 %}
+##{{release.version}}##
+---------------
+{{release.changes | markdownify}}  
+*released on {{ release.date | date: "%B %-d, %Y" }}*
+{% endfor %}
