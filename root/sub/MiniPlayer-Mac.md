@@ -12,7 +12,7 @@ summary: "MiniPlayer lets you control and search your Music from all your favori
 {% assign app = site.data.apps[0] %}
 
 
-|![MiniPlayer Icon]({{ site.assets-path }}{{app.icon}}){: .profilepic}|[Soon in the App Store](){: .button}|
+|![MiniPlayer Icon]({{ site.assets-path }}{{app.icon}}){: .profilepic}|[Download from the App Store](https://itunes.apple.com/us/app/miniplayer/id931202332?l=it&ls=1&mt=12){: .button}|
 {: .products}
 -------
 {{app.description}}
