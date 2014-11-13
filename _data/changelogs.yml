@@ -1,4 +1,8 @@
 - mpmac:
+    - version: 1.4
+      changes: "MiniPlayer is on the Mac App Store!! [{% include appStoreButtonSVG.html %}](https://itunes.apple.com/us/app/miniplayer/id931202332?l=it&ls=1&mt=12)"
+      date: "13/11/2014 21:28"
+
     - version: 1.3
       changes: "Yosemite (OSX 10.10) compatibility, it worked perfectly but now the dark and white themes use the system blur! Let me know if you like it."
       date: "18/10/2014 02:03"
