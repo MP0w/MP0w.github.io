@@ -1,6 +1,6 @@
 - mpmac:
     - version: 1.4
-      changes: "MiniPlayer is on the Mac App Store!! [{% include appStoreButtonSVG.html %}](https://itunes.apple.com/us/app/miniplayer/id931202332?l=it&ls=1&mt=12)"
+      changes: "MiniPlayer is on the Mac App Store!!"
       date: "13/11/2014 21:28"
 
     - version: 1.3
