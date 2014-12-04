@@ -1,0 +1,12 @@
+http_path = "../"
+project_path = File.expand_path(File.join(File.dirname(__FILE__), '.'))
+css_dir = "../css"
+sass_dir = "/"
+images_dir = "../assets"
+javascripts_dir = "../assets/js"
+fonts_dir = "../assets/fonts"
+http_javascripts_dir = "../assets/js"
+http_stylesheets_dir = "../css"
+http_images_dir = "../assets"
+http_fonts_dir = "../assets/fonts"
+output_style = :compressed
