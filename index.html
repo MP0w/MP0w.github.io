@@ -20,7 +20,7 @@ layout: default
 <div class="spacing"></div>
 
 <section id="recent">
-  {% for post in site.posts offset:1 | limit: 6 %}
+  {% for post in site.posts offset:1 limit:6 %}
     <article class="excerpt">
       <header>
         <h1 class="title"><a href="{{ post.url }}">{{ post.title | camel_break }}</a></h1>
