@@ -7,6 +7,7 @@ permalink: /CV/
 cover: ""
 lastdate: "02/10/2014"
 isPDF: 1
+PDFTitle: CV
 ---
 
 <style>
