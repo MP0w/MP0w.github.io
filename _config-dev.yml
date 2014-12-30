@@ -15,7 +15,6 @@ github_username:  MP0w
 markdown: kramdown
 permalink: "/:title"
 
-
 production: false
 timezone: "Europe/Rome"
 

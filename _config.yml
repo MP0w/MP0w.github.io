@@ -17,6 +17,9 @@ permalink: "/:title"
 gems:
   - jekyll-sitemap
 
+sass:
+  style: compressed
+
 production: true
 timezone: "Europe/Rome"
 
