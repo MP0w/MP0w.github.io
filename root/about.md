@@ -9,4 +9,4 @@ Most of my works have something to do with Apple products, I like **Objective C*
 I love great **UI and UX**; I always try to do something that is outstanding and I try to exit from the schemes.  
 I enjoy to work on **challenging projects** or unusual stuff.  
 I like to make **open-source** controls, take a look at my [Github](http://github.com/MP0w).  
-I'm currently working at @Runtastic in Linz (Austria).
+I'm currently working at [@Runtastic](https://twitter.com/Runtastic) in Linz (Austria).
