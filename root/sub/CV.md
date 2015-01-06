@@ -5,7 +5,7 @@ tags: Curriculum, Vitae
 summary: "Alex Manzella Curriculum Vitae"
 permalink: /CV/
 cover: ""
-lastdate: "02/10/2014"
+lastdate: "06/01/2015"
 isPDF: 1
 PDFTitle: CV
 ---
@@ -104,7 +104,7 @@ First of all I'm an iOS Developer, with a really good knowledge of Objective C a
 I take andvantage of all the modern techniques such as Unit Testing, version control (GIT or SVN) and Continuos Integration to write safe code and collaborate with other developers using all the most popular Applications and XCode. I'm also pretty good debugging code, research and escape from hard situations thanks to my knowledge of the runtime, lldb and other tools like [Cycript](http://cycript.org).  
 Some of my open-source projects can be found on GitHub: [https://github.com/MP0w](https://github.com/MP0w)
 My most known project are in my website [http://MPow.it](http://MPow.it) or on Github.
-I actually work for GoodBarber as iOS Developer on the engine of an App Builder and other projects; and I'm even working on a revolutionary Twitter client for iOS in my free time!  
+I’m currently working at Runtastic in Linz (Austria); and I'm even working on a revolutionary Twitter client for iOS in my free time!  
 When I'm not writing code I enjoy to play football, do snowboard or surf, listen to music, travel, live somewhere in the world and have fun with friends.
 
 ####Work####
@@ -113,7 +113,8 @@ When I'm not writing code I enjoy to play football, do snowboard or surf, listen
 ||From|To|
 |-----|----|-----------|
 |Freelance Developer|2010|-|
-|GoodBarber (iOS Developer)|07/2013|-|
+|GoodBarber (iOS Developer)|07/2013|01/2015|
+|Runtastic (iOS Developer)|01/2015|-|
 {: .cv3}
 
 ####Projects####
@@ -186,7 +187,7 @@ When I'm not writing code I enjoy to play football, do snowboard or surf, listen
 {: .cv}
 
 
-*Version updated on **{{ page.lastdate }}**, get an up to date copy at* [{{ site.url }}{{ page.permalink }}]({{ site.url }}{{ page.permalink }})
+*Updated on **{{ page.lastdate }}**, get an up to date copy at* [{{ site.url }}{{ page.permalink }}]({{ site.url }}{{ page.permalink }})
 {: .updated .onlyOnPDF}
 
 

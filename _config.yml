@@ -16,6 +16,7 @@ markdown: kramdown
 permalink: "/:title"
 gems:
   - jekyll-sitemap
+  - jekyll-mentions
 
 sass:
   style: compressed
@@ -27,6 +28,9 @@ author:
     display_name: Alex Manzella
     username: MPow
     
+jekyll-mentions:
+  base_url: https://twitter.com
+
 assets-path: "/assets/"
 cover: "root.jpg"
 profilepic: "profilepic.jpg"
