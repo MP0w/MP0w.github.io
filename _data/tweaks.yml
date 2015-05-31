@@ -1,12 +1,12 @@
 - name: MiniPlayer
   url: "cydia://package/org.thebigboss.miniplayer"
-  video: '<iframe width="251" height="141" src="http://www.youtube.com/embed/lv_n8RodYCA" frameborder="0" allowfullscreen></iframe>'
+  video: '<iframe width="251" height="141" src="http://www.youtube-nocookie.com/embed/lv_n8RodYCA" frameborder="0" allowfullscreen></iframe>'
   description: "An iTunes 11 like player always on your iDevice's screen.  As [MiniPlayer for Mac](/Apps), MiniPlayer let you control and search your Music with **all the most popular Apps and Music Services**. It supports **Music**, **Podcast**, **Spotify**, **Rdio**.  You will love to listen your Music thanks to the simple and beatiful UI made by [@Surenix](http://twitter.com/Surenix)."
   icon: "miniplayerIcon.png"
 
 - name: "AnimateAll"
   url: "cydia://package/org.thebigboss.animateall"
-  video: '<iframe width="251" height="141" src="http://www.youtube.com/embed/2MV_QDtDoJg" frameborder="0" allowfullscreen></iframe>'
+  video: '<iframe width="251" height="141" src="http://www.youtube-nocookie.com/embed/2MV_QDtDoJg" frameborder="0" allowfullscreen></iframe>'
   description: "Add an animated wallpaper in your Lockscreen, Homescreen and Notification Center (compatible with BootLogo Animations)"
 
 - name: "KeDoRi"
@@ -16,7 +16,7 @@
 
 - name: "PowerMusic"
   url: "cydia://package/org.thebigboss.powermusic"
-  video: '<iframe width="251" height="141" src="http://www.youtube.com/embed/IjfOXHgugZg" frameborder="0" allowfullscreen></iframe>'
+  video: '<iframe width="251" height="141" src="http://www.youtube-nocookie.com/embed/IjfOXHgugZg" frameborder="0" allowfullscreen></iframe>'
   description: "A quick Music Picker for the Lockscreen and a iTunes11 MiniPlayer style widget for the NC. Compatible with all iPhone and iPad."
   icon: "miniplayerIcon.png"
 
