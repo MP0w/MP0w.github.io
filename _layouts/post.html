@@ -8,8 +8,9 @@ layout: default
     <p class="meta">Written by <span class="author">{% if page.author %}{{page.author}}{% else %}{{ site.author.username }}{% endif %}</span> on <span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span> {% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
   <article class="post-content">
+  {% if page.outdated %}<button class="outdated">Outdated</button>{% endif %}
   {{ content }}
   </article>
 
 </div>
-<a class="button" href="{{ site.baseurl }}/index.html" style="margin-top: 20px !important;">All Posts</a>
+<a class="button" href="{{ site.baseurl }}/index.html" class="allPostsButton">All Posts</a>

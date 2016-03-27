@@ -14,7 +14,7 @@ PDF_DIR = File.expand_path("../", __FILE__)+'/../'
         
         def generate(site)
             site.pages.each do |page|
-                if (page.regenerate? && page.data.has_key?('isPDF'))
+                if (page.data.has_key?('isPDF'))
                     generatePDF(page)
                 end
             end

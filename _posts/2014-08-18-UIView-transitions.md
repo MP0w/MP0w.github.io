@@ -1,5 +1,6 @@
 ---
 layout: post
+outdated: true
 title:  "UIView Interactive Animations"
 date:   2014-08-18 21:52:00
 categories: UIView UIScrollview Animations Transitions
@@ -8,8 +9,7 @@ summary: "Interactive animations through UIScrollView and Gesture Recognizers"
 cover: "scrollview-transition.jpg"
 ---
 
-As anticipated in [the presentation of the blog]({% post_url 2014-08-11-the-blog-is-alive %}) I will talk about **Interactive Transitions and Animations with UIKit**.
-This is the first of three blog post talking about Transitions and Animations; I will start with UIScrollView and gesture driven animations today, UIViewController and UICollectionView Transitions later.  
+This is the first of three blog post talking about **Interactive Transitions and Animations with UIKit**; I will start with UIScrollView and gesture driven animations today, UIViewController and UICollectionView Transitions later.  
 
 > A good UX is necessary to build an awesome and usable Application; Interactive Transitions and Animations, other than good looking, could help your App to be more intuitive for Users.
 

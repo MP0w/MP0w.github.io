@@ -107,6 +107,16 @@ button:hover, .button:hover {
   color: #fff;
 }
 
+.outdated, .outdated:hover {
+	background-color: #e9004f;
+	border-color: #e9004f;
+	color: white;
+}
+
+.allPostsButton {
+	margin-top: 20px !important;
+}
+
 hr {
   width: 80%;
   margin: 10px 10% !important;

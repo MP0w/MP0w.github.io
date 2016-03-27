@@ -7,14 +7,10 @@
   margin: 0 auto;
 }
 .coverImageCentered{
-  background: url({{ site.assets-path }}{% if page.cover %}{{ page.cover }}{% else %}{{site.cover}}{% endif %});
   background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
 }
 </style>
-<div class="headerImageWrapper {% if page.cover-centered %}coverImageCentered{% else %}coverImage{% endif %}"></div>
+<div class="headerImageWrapper coverImage {% if page.cover-centered %}coverImageCentered{% endif %}"></div>
 <header class="site-header">
   <div class="wrap">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
