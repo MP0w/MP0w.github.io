@@ -1,3 +1,18 @@
+- name: Runtastic
+  url: "https://itunes.apple.com/us/app/runtastic-pro-gps-running/id366626332?mt=8"
+  description: "Runtastic is one of the most popular and appreciated Fitness tracker. As part of the team I helped with the development of the app and many new features. It's also the App I'm mainly working on at Runtastic."
+  icon: "runtastic.png"
+
+- name: "Runtastic <span style='font-family: Sans-Serif; font-size: 0.8em;'>WATCH</span>"
+  url: "https://itunes.apple.com/us/app/runtastic-pro-gps-running/id366626332?mt=8"
+  description: "The Runtastic app for watchOS has been a great success. Since the watchOS 1 version (my first project at Runtastic!) the app has been featured by Apple: at the <span style='font-family: Sans-Serif; font-size: 0.8em;'>WATCH</span> launch on the website and on the store from day 1 until today. It was also featured as App of the year (2015) in some countries. watchOS 2's version have been the first fitness app to support native heartrate monitor, a huge effort!"
+  icon: "runtastic.png"
+
+- name: "Results <span style='font-family: Sans-Serif; font-size: 0.8em;'>WATCH</span>"
+  url: "https://itunes.apple.com/us/app/runtastic-results-personal/id1035263816?mt=8"
+  description: "Runtastic Results for <span style='font-family: Sans-Serif; font-size: 0.8em;'>WATCH</span> is entirely built with Swift 2.0 and takes full advantage of watchOS 2. I have been in charge of creating the initial version and is now mantained by the Runtastic Results team."
+  icon: "results.png"
+
 - name: MiniPlayer
   url: /MiniPlayer-Mac
   description: "After the success of [MiniPlayer for iOS](/Tweaks) I decided to develop the OSX version. MiniPlayer lets you control and search your Music with **all the most popular Apps and Music Services**. It supports **iTunes**, **Spotify**, **Rdio** and is extensible to any other Application you like with **Plug-Ins**.  You will love to listen your Music thanks to its simple and beautiful UI made by [@Surenix](http://twitter.com/Surenix)."
@@ -5,7 +20,7 @@
 
 - name: "My GoodBarber"
   url: "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0CEoQFjAD&url=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fmy-goodbarber%2Fid534475256%3Fmt%3D8&ei=o_joU4Vzyp_RBf-RgZgG&usg=AFQjCNE3AqeMghiVQvVt3b441jvS3TiH4Q&sig2=H9Z5wVW0zkZYywIwBLY8dA&bvm=bv.72676100,d.d2k"
-  description: "An App to manage your [GoodBarber](http://goodbarber.com) Applications directly on your device. Send push, see statistics, **test your Application** directly inside this App and ask question to the support."
+  description: "At Goodbarber I worked on the App Builder engine, thousands of Application are generated out of that engine, MyGoodbarber is an App to manage your [GoodBarber](http://goodbarber.com) Applications directly on your device. Send push, see statistics, **test your Application** directly inside this App and ask question to the support."
   icon: "mygb.png"
 
 - name: "My WMaker"
