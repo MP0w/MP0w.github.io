@@ -23,7 +23,7 @@ font-weight:100 !important;
 
 
 {% for release in site.data.changelogs[1].mpios offset:1 %}
-##{{release.version}}##
+## {{release.version}} ##
 ---------------
 {{release.changes | markdownify}}  
 *released on {{ release.date | date: "%B %-d, %Y" }}*

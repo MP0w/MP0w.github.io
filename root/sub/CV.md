@@ -5,7 +5,7 @@ tags: Curriculum, Vitae
 summary: "Alex Manzella Curriculum Vitae"
 permalink: /CV/
 cover: ""
-lastdate: "06/01/2015"
+lastdate: "27/03/2016"
 isPDF: 1
 PDFTitle: CV
 ---
@@ -66,12 +66,13 @@ PDFTitle: CV
 }
 </style>
 
-###Curriculum Vitae###
+
+### Curriculum Vitae ###
 
 [PDF]({{site.url}}/CV.pdf "CV"){: .button .onlyOnWeb}
 
 
-####Personal Informations####
+#### Personal Informations ####
 ----------
 
 |Name|Alex Manzella|
@@ -84,7 +85,7 @@ PDFTitle: CV
 |Skype|manzopower|
 {: .cv}
 
-####Position####
+#### Position ####
 ----------
 
 |Position|Software Developer|
@@ -92,7 +93,7 @@ PDFTitle: CV
 |Education|University of Genoa (Engineering, 2 years from 2011)|
 {: .cv}
 
-####About Me####
+#### About Me ####
 ----------
 
 Developer with a good knowledge of iOS, OSX and other UNIX systems.
@@ -107,7 +108,7 @@ My most known project are in my website [http://MPow.it](http://MPow.it) or on G
 I’m currently working at Runtastic in Linz (Austria); and I'm even working on a revolutionary Twitter client for iOS in my free time!  
 When I'm not writing code I enjoy to play football, do snowboard or surf, listen to music, travel, live somewhere in the world and have fun with friends.
 
-####Work####
+#### Work ####
 ----------
 
 ||From|To|
@@ -117,10 +118,10 @@ When I'm not writing code I enjoy to play football, do snowboard or surf, listen
 |Runtastic (iOS Developer)|01/2015|-|
 {: .cv3}
 
-####Projects####
+#### Projects ####
 ----------
 
-#####iOS and OSX#####
+##### iOS and OSX #####
 
 - [MiniPlayer for iOS](http://mpow.it/Tweaks) and [MiniPlayer for Mac](http://mpow.it/MiniPlayer-Mac) an Application that lets you control and search your Music with all the most popular Apps and Music Services. It supports iTunes, Spotify, Rdio and is extensible to any other Application you like with Plug-Ins, the UI is made by the popular Designer [@Surenix](http://twitter.com/surenix). Is probably my most famous personal project, many famous blogs talked about it: iDownloadblog, CNET, lifehacker and many others. 
 - [My GoodBarber](http://mpow.it/Apps) An App to manage your GoodBarber Applications directly on your device. Send push, see statistics, test your Application directly inside this App and ask question to the support. Is a really challenging project because this application is able to [run sub-applicantions](https://twitter.com/ManzoPower/status/489423498209918976/photo/1) that are built with the GoodBarber App engine.
@@ -134,7 +135,7 @@ When I'm not writing code I enjoy to play football, do snowboard or surf, listen
 
 
 
-#####Web#####
+##### Web #####
 
 - [My website and Blog](http://mpow.it) based on [jekyll](http://jekyllrb.com) - [opensource and hosted on github](https://github.com/MP0w/MP0w.github.io)  
 - Website to collect and track the stats of my Applications and beta repository for my Tweaks (SQL / PHP / HTML 5 / CSS 3) [http://mpow.it/repo](http://mpow.it/repo)
@@ -145,7 +146,7 @@ When I'm not writing code I enjoy to play football, do snowboard or surf, listen
 
 <div style="page-break-before: always" ></div>
 
-####Experience####
+#### Experience ####
 ----------
 
 |Programming and scripting skills|From|Level[^1]|
@@ -175,7 +176,7 @@ When I'm not writing code I enjoy to play football, do snowboard or surf, listen
 {: .cv3}
 
 
-####Other####
+#### Other ####
 ----------
 
 |Languages|Level|

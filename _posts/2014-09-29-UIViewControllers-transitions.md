@@ -42,7 +42,7 @@ More than one month after the [first]({% post_url 2014-08-18-UIView-transitions 
 {: #markdown-toc}
 
 
-##UX##
+## UX ##
 --------
 
 For many years and in the 99% of the Applications all developers used the UIKit built in transitions, the popular pop and push animation of `UINavigationController` or `UIViewController`'s modal transition. There was even a little margin of customization through the property [`UIModalTransitionStyle modalTransitionStyle`](https://developer.apple.com/library/ios/Documentation/UIKit/Reference/UIViewController_Class/index.html#//apple_ref/occ/instp/UIViewController/modalTransitionStyle) that allowed 4 differents values:
@@ -68,7 +68,7 @@ Usually, building custom transitions, can be a good pratice present a **Modal Vi
 ![Mail.app]({{site.assets-path}}mail8transition.gif){: .postImage}
 
 
-##UIViewControllerTransitioningDelegate##
+## UIViewControllerTransitioningDelegate ##
 --------
 
 Apple introduced some new APIs in iOS 7 to make developer's life easier, one useful for Animated transitions, [the protocol `UIViewControllerAnimatedTransitioning`](https://developer.apple.com/library/ios/Documentation/UIKit/Reference/UIViewControllerAnimatedTransitioning_Protocol/index.html), and one for interactive transitions, [the class `UIPercentDrivenInteractiveTransition`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPercentDrivenInteractiveTransition_class/index.html).  
@@ -86,7 +86,7 @@ To be able to start an animated or interactive transition we have to tell to the
 Returning `nil` will end up using the default transition.
 
 
-##UIViewControllerAnimatedTransitioning##
+## UIViewControllerAnimatedTransitioning ##
 --------
 To build animated transition we just need to pass an object conforming to [`UIViewControllerAnimatedTransitioning`](https://developer.apple.com/library/ios/Documentation/UIKit/Reference/UIViewControllerAnimatedTransitioning_Protocol/index.html) , its methods are pretty easy and to build a basic animated transition we can just do:  
 
@@ -114,7 +114,7 @@ To build animated transition we just need to pass an object conforming to [`UIVi
 The transitionContext will provide us all the stuff necessary to build our animation, then will eventually call [`- (void)animationEnded:(BOOL) transitionCompleted`](https://developer.apple.com/library/ios/Documentation/UIKit/Reference/UIViewControllerAnimatedTransitioning_Protocol/index.html#//apple_ref/occ/intfm/UIViewControllerAnimatedTransitioning/animationEnded:) if implemented. You can play with frames, transforms, alpha or whatever you want to build your personal custom animation.
 
 
-##UIPercentDrivenInteractiveTransition##
+## UIPercentDrivenInteractiveTransition ##
 --------
 
 Build a *driven interactive transition* is a bit more long, we need something that [Drive an Animation]({% post_url 2014-08-18-UIView-transitions %}/#drive-an-animation) and generate a [Percentage]({% post_url 2014-08-18-UIView-transitions %}/#percentage) of progress, a PanGesture is great for this purpose.
@@ -154,7 +154,7 @@ The core of the animation will be something like:
 {% endhighlight %}
 
 
-##Example##
+## Example ##
 --------
 
 I quickly build an example that replicate iOS 8's Mail.app animation, is something basic, don't use it at home.
@@ -166,7 +166,7 @@ Yo give you an idea I did a quick test, some months ago, that end up in that exa
 <iframe name='quickcast' src='http://quick.as/embed/yvw7u6mb' scrolling='no' frameborder='0' width='100%' allowfullscreen></iframe><script src='http://quick.as/embed/script/1.64'></script>
 
 
-##Landscape##
+## Landscape ##
 --------
 
 When Apple introduced transitions in iOS 7, decided to not manage the orientation of the `containerView`

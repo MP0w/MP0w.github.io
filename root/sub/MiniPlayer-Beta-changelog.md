@@ -21,7 +21,7 @@ font-weight:100 !important;
 {{site.data.changelogs[2].mpiosbeta[0].changes | markdownify}}  
 
 
-##Known Issues##
+## Known Issues ##
 ---------------
 
 {{site.data.changelogs[2].mpiosbeta[0].knownissues | markdownify}}  

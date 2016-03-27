@@ -20,7 +20,7 @@ font-weight:100 !important;
 {: .products}
 
 {% for release in site.data.changelogs[0].mpmac offset:0 %}
-##{{release.version}}##
+## {{release.version}} ##
 ---------------
 {{release.changes | markdownify}}  
 *released on {{ release.date | date: "%B %-d, %Y" }}*

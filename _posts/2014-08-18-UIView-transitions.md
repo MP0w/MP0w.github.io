@@ -33,7 +33,7 @@ This is the first of three blog post talking about **Interactive Transitions and
 {: #markdown-toc}
 
 
-###Drive an Animation###
+### Drive an Animation ###
 ------
 Build a **Driven Animation** is a bit different that animate an object using CoreAnimation. The easiest way to animate a view looks like this:  
 
@@ -48,14 +48,14 @@ You can adjust the timing of an animation using CoreAnimation but is still not d
 To build interactive Animations we need to **define the behaviors** of an Object not depending by the time, usually is used the [Percentage](#percentage) of completion of the Animation.
 
 
-###Percentage###
+### Percentage ###
 ------
 What we need to **drive the animation** is a `float` between 0.0 and 1.0[^2], as it represent 0% to 100% we can call it percentage.
 Since we are talking about **Interactive Animations** we will need to get the percentage of completion from an **user interaction**.
 I will talk about the most used (by myself): [UIGestureRecognizer](#uigesturerecognizer), [UIScrollView's scroll](#uiscrollview).
 *There would be a third one but since is based on UICollectionViewLayout will be in the last episode.*
 
-###UIGestureRecognizer###
+### UIGestureRecognizer ###
 ------
 As of iOS 7.1 SDK there are 7 types of UIGestureRecognizer
 
@@ -79,7 +79,7 @@ The helpful Recognizers that are:
 rotation and scale return a `float`, translationInView: locationInView: returns a `CGPoint` so you can choose x or y based on the kind of animation you need to build.
 I will explain you how to normalize any of these values using [UIScrollView's `contentOffset`](#uiscrollview).
 
-###UIScrollView###
+### UIScrollView ###
 ------
 UIScrollView can drive animations as well as gesture recognizers, we will use the [`contentOffset`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIScrollView_Class/Reference/UIScrollView.html#//apple_ref/doc/uid/TP40006922-CH3-SW6) captured through the ScrollView Delegate [`scrollViewDidScroll:`](https://developer.apple.com/library/ios/documentation/uikit/reference/uiscrollviewdelegate_protocol/reference/uiscrollviewdelegate.html#//apple_ref/occ/intfm/UIScrollViewDelegate/scrollViewDidScroll:).
 As soon as the user scrolls the delegate will be called and we will get the offset; we need to normalize the value in order to get a percentage.
@@ -105,7 +105,7 @@ When you scroll down:
 Now that you have a percentage value you can do your driven animation.
 
 
-###Example###
+### Example ###
 ------
 An example is the popular Parallax[^parallax] effect on a UIScrollView[^subclass].  
 Assuming that we have an `UIImageView` inside our `UIScrollView` we want to increment the height of the ImageView height when we scroll up after the top, and decrement it to have a Parallax effect while scrolling down. We just have to play with `IMAGE_HEIGHT` and the `offset`.
@@ -128,7 +128,7 @@ Assuming that we have an `UIImageView` inside our `UIScrollView` we want to incr
 
 You can download the [Example Project]({{site.assets-path}}InteractiveAnimations.zip).
 
-###Modifiers###
+### Modifiers ###
 ------
 We can even play with our percentage for different effects. For example if we want to animate the alpha of the label, in this case, we can't use the percentage directly; using `label.alpha=percentage;` we would have a transparent label when the scollview is at top instead of a value==1, and close to 0 when we scroll. What we want is the exact opposite so we can do:
 {% highlight objc %}
