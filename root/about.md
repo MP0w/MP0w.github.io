@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I’m an Italian Developer, 24 years old. Most of my works have something to do with Apple products, I'm an **iOS Developer** but I like any kind of Cocoa.
-I'm into Jailbreak for tweak development, to break stuff, explore and learn.
-I love great **UI / UX** and enjoy to work on **challenging projects**.
-Swift is the future.
+24 yo. **iOS Developer** but I like any kind of Cocoa. Born in the Jailbreak scene to break stuff, explore and learn. Interested in **architecture**. Focused on **code quality**. Love great **UI/UX**. Like to work in **agile environments**. Passionate about **open source**. Constantly learning and sharing knowledge. Enjoy to work on challenging projects.
+
+> 1 millisecond a day keeps the user away
+
 Currently working at [@Runtastic](https://twitter.com/Runtastic) in Linz (Austria).
