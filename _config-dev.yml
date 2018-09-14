@@ -1,8 +1,8 @@
 # Site settings
 title: MPow
-description: "iOS and OSX Developer that love to work on challenging projects and enjoy good UI/UX. Made in Italy"
-long-description: "iOS and OSX Developer that love to work on challenging projects and enjoy good UI/UX. 23 years old, <i>Made in Italy</i>."
-footer-description: "iOS and OSX Developer<br /><i>Made in Italy</i>"
+description: "iOS Engineer that loves to work on challenging projects and enjoys good UI/UX. Born in 1991, Made in Italy"
+long-description: "iOS Engineer that loves to work on challenging projects and enjoys good UI/UX. Born in 1991, <i>Made in Italy</i>."
+footer-description: "Senior iOS Engineer<br /><i>Made in Italy</i>"
 defaultTags: "mpow, manzopower, blog, ios, developer, osx, cocoa, UIKit, miniplayer, animateall, powermusic"
 
 email: manzopower@icloud.com
