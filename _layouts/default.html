@@ -2,18 +2,23 @@
 <html>
 
   {% include head.html %}
-
-    <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-    </body>
+  <style>
+    body {
+      font-size: 16px;
+      font-family: monospace;
+      color: #EEE;
+      background-color: #222;
+    }
+    a:link { color: #9ec5ff; }
+    a:visited { color: #d7adfe; }
+    a:hover { color: #ffffff; }
+    a:active { color: #b15dff; }
+    p { max-width: 800px; }
+    .about p {
+      line-height: 1.5;
+    }
+  </style>
+  <body>
+  {{ content }}
+  </body>
 </html>

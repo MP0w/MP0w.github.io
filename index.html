@@ -2,44 +2,34 @@
 layout: default
 ---
 
-<div class="home">
-{% include author.html %}
-<section id="latest">
-  <article>
-    <header>
-      <hgroup>
-        <h1><a href="{{ site.posts.first.url }}">{{ site.posts.first.title | camel_break }}</a></h1>
-        <span class="post-date">{{ site.posts.first.date | date: "%B %-d, %Y" }}</span>
-      </hgroup>
-    </header>
-	{{ site.posts.first.excerpt | markdownify }}
-	<a class="button" href="{{ site.posts.first.url }}" style="margin-top: 10px !important;">Continue Reading</a>
-  </article>
-</section>
+<h1>Alex Manzella</h1>
+<h2>{{ site.job_title }} @ <a href="{{ site.job_website }}">{{ site.job_company }}</a></h2>
+<p>email <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<p>github <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a></p>
+<p>twitter <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a></p>
+<details>
+  <summary>About me</summary>
+  <br>
+  <div class="about">
+    <p>
+      Born in 1991 and “Made in Italy”. I grew up in the iOS Jailbreak scene breaking stuff, exploring and learning.
+    </p>
+    <p>
+      In 2011 I received an iPhone 3GS from my parents, I was in love with it except it lacked a simple but BIG feature: Wallpapers. You could only have a black background. I started to look for ways to workaround this limitation and I discovered the Jailbreak.
+    </p>
+    <p>
+      From there I started to learn C and Objective-C, research how iOS and its frameworks are working internally and build and publish my own tweaks, it was a lot of fun, had quite good success and it quickly ended up becoming my job!
+    </p>
+    <p>
+      These days I do a bit of whatever is needed, mobile, web, backend and engineering leadership.
+    </p>
+    <p>
+      I’m motivated by technical challenges and software architecture. I'm focused on quality and love great UI/UX. 
+    </p>
+    <p>
+      I'm interested in web3 and blockchains, mostly ethereum, not the scammy part: 99% of cryptocurrencies, NFTs, etc.... those are <a href="https://twitter.com/ManzoPower/status/1544083765915435014">the equivalent of beer apps at the beginning of the App store</a> 
+    </p>
+  </div>
+</details>
 
-<div class="spacing"></div>
-
-<section id="recent">
-  {% for post in site.posts offset:1 limit:6 %}
-    <article class="excerpt">
-      <header>
-        <h1 class="title"><a href="{{ post.url }}">{{ post.title | camel_break }}</a></h1>
-        <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-      </header>
-      {{ post.excerpt | markdownify }}
-    </article>
-  {% endfor %}
-
-<div id="titleOnly">
-    {% for post in site.posts offset:7 %}
-    <article>
-      <header>
-        <h1 class="title"><a href="{{ post.url }}">{{ post.title | camel_break }}</a></h1>
-        <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-      </header>
-    </article>
-  {% endfor %}
-</div>
-</section>
-
-</div>
+  

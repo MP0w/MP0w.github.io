@@ -1,24 +1,20 @@
 # Site settings
 title: MPow
-description: "iOS Engineer that loves to work on challenging projects and enjoys good UI/UX. Born in 1991, Made in Italy"
-long-description: "iOS Engineer that loves to work on challenging projects and enjoys good UI/UX. Born in 1991, <i>Made in Italy</i>."
-footer-description: "Senior iOS Engineer<br /><i>Made in Italy</i>"
-defaultTags: "mpow, manzopower, blog, ios, developer, osx, cocoa, UIKit, miniplayer, animateall, powermusic"
+description: "Tech Lead @ Amie"
+defaultTags: "mpow, manzopower, mp0w, blog, ios, developer, osx, cocoa, UIKit, miniplayer, animateall, powermusic"
 
 email: m@mpow.dev
 baseurl: ""
 url: "https://mpow.dev"
-twitter_username: ManzoPower
-github_username:  MP0w
+twitter_username: manzopower
+github_username: MP0w
+job_title: "Tech Lead"
+job_website: "https://amie.so"
+job_company: "Amie"
 
 # Build settings
 markdown: kramdown
 permalink: "/:title"
-gems:
-  - jekyll-sitemap
-
-sass:
-  style: compressed
 
 production: true
 timezone: "Europe/Rome"
@@ -26,7 +22,3 @@ timezone: "Europe/Rome"
 author:
     display_name: Alex Manzella
     username: MPow
-
-assets-path: "/assets/"
-cover: "root.jpg"
-profilepic: "profilepic.jpg"

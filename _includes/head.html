@@ -1,28 +1,9 @@
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="{{ site.author.display_name }}">
     <meta name="description" content="{% if page.summary %}{{page.summary}}{% elsif page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
-	<meta name="keywords" content="{{site.defaultTags}}{% if page.tags %}, {% for tag in page.tags %}{{tag}},{% endfor %}{% endif %}">
+    <meta name="keywords" content="{{site.defaultTags}}{% if page.tags %}, {% for tag in page.tags %}{{tag}},{% endfor %}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="apple-touch-icon" href="touch-icon-iphone.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="{{site.assets-path}}touch-icon-ipad.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="{{site.assets-path}}touch-icon-iphone-retina.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="{{site.assets-path}}touch-icon-ipad-retina.png">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-{% if site.production %}
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-36893279-1', 'auto');
-  ga('set', 'anonymizeIp', true);
-  ga('send', 'pageview');
-</script>
-{% endif %}
 </head>
