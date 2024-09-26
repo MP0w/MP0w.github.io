@@ -8,9 +8,6 @@ baseurl: ""
 url: "https://mpow.dev"
 twitter_username: manzopower
 github_username: MP0w
-job_title: "Tech Lead"
-job_website: "https://amie.so"
-job_company: "Amie"
 
 # Build settings
 markdown: kramdown
