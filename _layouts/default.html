@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {% include head.html %}
-  <style>
-    body {
-      font-size: 16px;
-      font-family: "Courier New", monospace;
-      font-weight: 500;
-      color: #EEE;
-      background-color: #222;
-    }
-    a:link { color: #9ec5ff; }
-    a:visited { color: #d7adfe; }
-    a:hover { color: #ffffff; }
-    a:active { color: #b15dff; }
-    p { max-width: 800px; }
-    .about p {
-      line-height: 1.5;
-    }
-  </style>
   <body>
-  {{ content }}
+    {% assign home_url = '/' | relative_url %}
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand-link" href="{{ home_url }}">MPow</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="{{ home_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+          <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+          <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+          <a href="{{ '/CV.pdf' | relative_url }}">CV</a>
+        </nav>
+      </header>
+      <main id="main-content" class="page-content">
+        {{ content }}
+      </main>
+      <footer class="site-footer">
+        <p>&copy; {{ site.time | date: '%Y' }} MPow</p>
+      </footer>
+    </div>
   </body>
 </html>

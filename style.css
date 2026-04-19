@@ -1,0 +1,184 @@
+:root {
+  color-scheme: dark;
+  --bg: #121417;
+  --bg-soft: #171a1f;
+  --text: #e9edf3;
+  --muted: #a4afbd;
+  --accent: #9ec7b5;
+  --border: rgba(158, 199, 181, 0.18);
+  --max-width: 42rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+p,
+li {
+  max-width: 65ch;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.3rem 0 0.5rem;
+  font-family: inherit;
+  font-weight: 650;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: clamp(1.45rem, 3.8vw, 1.85rem);
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 10;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.site-shell {
+  width: min(calc(100% - 2rem), var(--max-width));
+  margin: 0 auto;
+  padding: 2.5rem 0 4rem;
+}
+
+.site-header,
+.site-footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-header {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.brand-link:hover {
+  color: var(--text);
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
+
+.site-nav a {
+  color: var(--muted);
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: var(--text);
+}
+
+.page-content,
+.story,
+.story-section {
+  display: grid;
+  gap: 1.1rem;
+}
+
+.lede {
+  color: var(--text);
+}
+
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.site-footer p {
+  color: var(--muted);
+}
+
+.story-header {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.about-section {
+  padding-top: 0.4rem;
+}
+
+.details-body {
+  display: grid;
+  gap: 1rem;
+}
+
+.about-section h2 {
+  color: var(--text);
+  font-weight: 700;
+}
+
+@media (max-width: 40rem) {
+  .site-header,
+  .site-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

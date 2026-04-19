@@ -1,39 +1,58 @@
 ---
 layout: default
+title: MPow
+summary: Personal site of MPow, a software engineer working across product, frontend, backend, and engineering leadership.
 ---
 
-<h1>Alex Manzella</h1>
-<h2>Software Engineer, surfing and BUIDLing.</h2>
-<p>
-  I’m currently building <a href="https://menusbuilder.com">Menus Builder</a>, a platform that helps restaurants publish fast, branded digital menus and simple websites without juggling a separate setup for every location. It’s designed to make menu updates, translations, and theming easier for restaurants
-</p>
-<br/>
-<p>email <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-<p>github <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a></p>
-<p>twitter <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a></p>
-<details>
-  <summary>About me</summary>
-  <br>
-  <div class="about">
+<article class="story">
+  <header class="story-header">
+    <h1>Software engineer, surfing and building.</h1>
+  </header>
+
+  <section class="story-section about-section" aria-labelledby="about-heading">
+    <h2 id="about-heading">About me</h2>
+    <div class="details-body">
+      <p>
+        I'm Alex Manzella. Born in 1991 and “Made in Italy”. I grew up in the iOS Jailbreak scene
+        breaking stuff, exploring and learning.
+      </p>
+      <p>
+        In 2011 I received an iPhone 3GS from my parents, I was in love with it except it lacked a
+        simple but BIG feature: Wallpapers. You could only have a black background. I started to
+        look for ways to workaround this limitation and I discovered the Jailbreak.
+      </p>
+      <p>
+        From there I started to learn C and Objective-C, research how iOS and its frameworks are
+        working internally and build and publish my own tweaks, it was a lot of fun, had quite good
+        success and it quickly ended up becoming my job!
+      </p>
+      <p>
+        These days I do a bit of whatever is needed, mobile, web, backend and engineering
+        leadership.
+      </p>
+      <p>
+        I’m motivated by technical challenges and software architecture. I'm focused on quality and
+        love great UI/UX.
+      </p>
+      <p>
+        I'm interested in web3 and blockchains, mostly ethereum, not the scammy part: 99% of
+        cryptocurrencies, NFTs, etc.... those are
+        <a href="https://twitter.com/ManzoPower/status/1544083765915435014">
+          the equivalent of beer apps at the beginning of the App store
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <section class="story-section" aria-labelledby="menu-builder-heading">
+    <h2 id="menu-builder-heading">Menu Builder</h2>
     <p>
-      Born in 1991 and “Made in Italy”. I grew up in the iOS Jailbreak scene breaking stuff, exploring and learning.
+      Right now I’m building <a href="https://menusbuilder.com">Menu Builder</a>, a platform for
+      restaurants to publish digital menus and simple websites, with faster updates and
+      AI-assisted translations, without turning every location into a separate project.
+      <a href="{{ '/menu-builder/' | relative_url }}">Read more</a>.
     </p>
-    <p>
-      In 2011 I received an iPhone 3GS from my parents, I was in love with it except it lacked a simple but BIG feature: Wallpapers. You could only have a black background. I started to look for ways to workaround this limitation and I discovered the Jailbreak.
-    </p>
-    <p>
-      From there I started to learn C and Objective-C, research how iOS and its frameworks are working internally and build and publish my own tweaks, it was a lot of fun, had quite good success and it quickly ended up becoming my job!
-    </p>
-    <p>
-      These days I do a bit of whatever is needed, mobile, web, backend and engineering leadership.
-    </p>
-    <p>
-      I’m motivated by technical challenges and software architecture. I'm focused on quality and love great UI/UX. 
-    </p>
-    <p>
-      I'm interested in web3 and blockchains, mostly ethereum, not the scammy part: 99% of cryptocurrencies, NFTs, etc.... those are <a href="https://twitter.com/ManzoPower/status/1544083765915435014">the equivalent of beer apps at the beginning of the App store</a> 
-    </p>
-  </div>
-</details>
+  </section>
+</article>
 
   

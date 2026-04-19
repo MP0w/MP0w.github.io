@@ -1,7 +1,8 @@
 # Site settings
 title: MPow
-description: "Tech Lead @ Amie"
-defaultTags: "mpow, manzopower, mp0w, blog, ios, developer, osx, cocoa, UIKit, miniplayer, animateall, powermusic"
+description: "Software engineer building Menu Builder and other calm, useful products."
+defaultTags: "alex manzella, mpow, manzopower, mp0w, software engineer, product engineer, menu builder, restaurant software, ios, web"
+lang: en
 
 email: m@mpow.dev
 baseurl: ""
@@ -17,5 +18,5 @@ production: true
 timezone: "Europe/Rome"
 
 author:
-    display_name: Alex Manzella
+    display_name: MPow
     username: MPow
