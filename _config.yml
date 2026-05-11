@@ -3,12 +3,18 @@ title: MPow
 description: "Software engineer building Menu Builder, FoodPhotoBoost, and other calm, useful products."
 defaultTags: "alex manzella, mpow, manzopower, mp0w, software engineer, product engineer, menu builder, foodphotoboost, restaurant software, food photo software, ios, web"
 lang: en
+locale: en_US
 
 email: m@mpow.dev
 baseurl: ""
 url: "https://mpow.dev"
 twitter_username: manzopower
 github_username: MP0w
+social_image: /social-card.svg
+social_image_type: image/svg+xml
+social_image_width: 1200
+social_image_height: 630
+social_image_alt: MPow builds Menu Builder, FoodPhotoBoost, and practical software products.
 
 # Build settings
 markdown: kramdown

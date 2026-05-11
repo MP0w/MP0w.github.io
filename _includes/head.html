@@ -7,29 +7,50 @@
   {% assign meta_description = site.description %}
 {% endif %}
 {% assign canonical_url = page.url | replace:'index.html','' | absolute_url %}
+{% assign meta_image = page.image | default: site.social_image %}
+{% assign meta_image_alt = page.image_alt | default: site.social_image_alt | default: meta_title %}
+{% assign meta_image_type = page.image_type | default: site.social_image_type | default: 'image/png' %}
+{% assign meta_image_width = page.image_width | default: site.social_image_width | default: 1200 %}
+{% assign meta_image_height = page.image_height | default: site.social_image_height | default: 630 %}
+{% assign og_type = page.og_type | default: 'website' %}
+{% assign og_locale = site.locale | default: 'en_US' %}
 
 <head>
     <meta charset="utf-8">
-    <title>{{ meta_title }}</title>
+    <title>{{ meta_title | escape }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="{{ site.author.display_name }}">
-    <meta name="description" content="{{ meta_description }}">
-    <meta name="keywords" content="{{ site.defaultTags }}{% if page.tags %}, {{ page.tags | join: ', ' }}{% endif %}">
+    <meta name="author" content="{{ site.author.display_name | escape }}">
+    <meta name="description" content="{{ meta_description | escape }}">
+    <meta name="keywords" content="{{ site.defaultTags | escape }}{% if page.tags %}, {{ page.tags | join: ', ' | escape }}{% endif %}">
     <meta name="robots" content="index,follow">
     <meta name="theme-color" content="#171514">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
     <link rel="icon" href="{{ '/favicon@2x.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:title" content="{{ meta_title }}">
-    <meta property="og:description" content="{{ meta_description }}">
+    <meta property="og:type" content="{{ og_type }}">
+    <meta property="og:locale" content="{{ og_locale }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{{ meta_title | escape }}">
+    <meta property="og:description" content="{{ meta_description | escape }}">
     <meta property="og:url" content="{{ canonical_url }}">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ meta_title }}">
-    <meta name="twitter:description" content="{{ meta_description }}">
+    {% if meta_image %}
+    <meta property="og:image" content="{{ meta_image | absolute_url }}">
+    <meta property="og:image:secure_url" content="{{ meta_image | absolute_url }}">
+    <meta property="og:image:type" content="{{ meta_image_type }}">
+    <meta property="og:image:width" content="{{ meta_image_width }}">
+    <meta property="og:image:height" content="{{ meta_image_height }}">
+    <meta property="og:image:alt" content="{{ meta_image_alt | escape }}">
+    {% endif %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ meta_title | escape }}">
+    <meta name="twitter:description" content="{{ meta_description | escape }}">
     {% if site.twitter_username %}
+    <meta name="twitter:site" content="@{{ site.twitter_username }}">
     <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+    {% endif %}
+    {% if meta_image %}
+    <meta name="twitter:image" content="{{ meta_image | absolute_url }}">
+    <meta name="twitter:image:alt" content="{{ meta_image_alt | escape }}">
     {% endif %}
 </head>

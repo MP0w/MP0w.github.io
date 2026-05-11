@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">MPow social preview</title>
+  <desc id="desc">MPow, software engineering, Menu Builder, and FoodPhotoBoost.</desc>
+  <rect width="1200" height="630" fill="#121417"/>
+  <text x="96" y="252" fill="#e9edf3" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">MPow</text>
+  <text x="96" y="322" fill="#a4afbd" font-family="Arial, Helvetica, sans-serif" font-size="34">Software engineering</text>
+  <text x="96" y="378" fill="#a4afbd" font-family="Arial, Helvetica, sans-serif" font-size="30">Menu Builder + FoodPhotoBoost</text>
+  <line x1="96" y1="452" x2="322" y2="452" stroke="#9ec7b5" stroke-width="4"/>
+</svg>
