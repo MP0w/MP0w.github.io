@@ -1,10 +1,11 @@
 ---
 layout: null
+sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% for page in site.pages %}
-{% if page.sitemap != false and page.name != '404.html' and page.url %}
+{% if page.sitemap != false and page.layout == 'default' and page.name != '404.html' and page.url %}
   <url>
     <loc>{{ page.url | replace:'index.html','' | absolute_url }}</loc>
   </url>
